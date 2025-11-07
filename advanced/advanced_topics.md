@@ -280,6 +280,20 @@
 - Monitoring and alerting
 - Continuous improvement
 
+## Further Advanced Topics
+
+Below are additional advanced topics with deeper, focused notes. Each file expands on patterns, design trade-offs, examples, and best practices.
+
+- `01_distributed_tracing.md` — tracing concepts, instrumentation and OpenTelemetry guidance.
+- `02_consistency_models.md` — trade-offs between strong, causal and eventual consistency; CAP/PACELC.
+- `03_advanced_caching.md` — multi-level caching, invalidation, cache warming and hot-key mitigation.
+- `04_rate_limiting_and_throttling.md` — token/leaky bucket, distributed counters and API policies.
+- `05_event_sourcing_and_cqrs.md` — event stores, projections, versioning and sagas.
+- `06_stream_processing.md` — stateful streaming, windowing, event-time, and frameworks.
+- `07_backpressure_and_flow_control.md` — reactive backpressure, bounded queues and flow control techniques.
+- `08_resilience_patterns.md` — circuit breakers, bulkheads, retries with jitter and graceful degradation.
+- `09_security_and_privacy.md` — identity, encryption, privacy-preserving techniques and operational security.
+
 ## Next Steps
 
 1. **Implementation Focus**
